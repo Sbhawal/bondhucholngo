@@ -43,7 +43,7 @@ a:visited {
 
 
 nav{
-	color:black;
+	:black;
 	display: flex;
 	justify-content: space-between;
 }
@@ -107,7 +107,7 @@ nav .logo img{
 		display: none;
 	}
 	nav .mainMenu li a{
-	font-size: 4rem;
+	font-size: 3rem;
 }
 
 	nav .mainMenu .closeMenu{
@@ -228,6 +228,7 @@ footer h1{
 
 }
 .mail-footer{
+	padding: 5px;
 	text-align: center;
 	padding-bottom: 10px;
 }

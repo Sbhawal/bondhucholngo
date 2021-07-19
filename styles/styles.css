@@ -123,7 +123,7 @@ nav .logo img{
 
 nav .logo img{
 	padding-top: 0.5rem;
-	width: 42%;
+	width: 62%;
 }
 
 
@@ -136,15 +136,62 @@ nav .logo img{
 
 
 
+.landing-text{
+	padding-top: 17vh;
+	padding-right: 2rem;
+	background-image: linear-gradient(to right, rgba(0,0,0,0.051), rgba(0,0,0,1));
+	min-height: 90vh;
 
+}
+.landing-text h1{
+  color: #EBECC3;
+  font-size: 3.8rem;
+  padding-bottom: 5vh;
+}
 
+.landing-text p{
+  color: #EBECC3;
+  font-size: 1.5rem;
+  padding-bottom: 2vh;
 
-
+}
 
 #landing{
+	background-image: url("../image/11.jpg");
+	/*background-image: url("https://i.ibb.co/921DRCN/IMG20210405132449.jpg");*/
 	min-height: 90vh;
+	overflow:hidden;
+	background-repeat: no-repeat;
+  background-size: cover;
 	padding: 0;
 }
+
+@media(max-width: 800px){
+
+	#landing{
+	background-image: url("../image/2.jpg");
+}
+.landing-text{
+	padding-top: 18vh;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,1));
+	min-height: 90vh;
+
+}
+.landing-text h1{
+  font-size: 4rem;
+}
+.landing-text p{
+  color: #EBECC3;
+  font-size: 1.3rem;
+}
+
+}
+
+
+
 
 
 #seperator {
